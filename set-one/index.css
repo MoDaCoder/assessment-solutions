@@ -1,0 +1,48 @@
+div {
+    background:  #1313daa2;
+    padding: 20px;
+}
+
+text {
+    color: black;
+    font-family: Lato 900;
+}
+
+h2 {
+    font-family: Lato 900;}
+
+p {
+    font-family: Lato 400;
+    max-height: 120px;
+    position: relative;
+    overflow: hidden;
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1200px){
+    div {
+        background: #2b911b;
+        padding: 20px;
+    }
+
+    .text {
+        color: black;
+    }
+}
+
+@media screen and (min-width: 641px) and (max-width: 1024px){
+    div {
+        background: #fff241;
+        padding: 20px;
+    }
+
+    .text {
+        color: black;
+    }
+}
+
+@media screen and (max-width: 640px){
+    div {
+        background: #ff4141;
+        padding: 20px;
+    }
+}
